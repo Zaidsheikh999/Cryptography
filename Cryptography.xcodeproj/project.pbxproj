@@ -14,6 +14,8 @@
 		3CBB8F2B2AB87D1D0016C87A /* CryptographyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB8F2A2AB87D1D0016C87A /* CryptographyTests.swift */; };
 		3CBB8F352AB87D1D0016C87A /* CryptographyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB8F342AB87D1D0016C87A /* CryptographyUITests.swift */; };
 		3CBB8F372AB87D1D0016C87A /* CryptographyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB8F362AB87D1D0016C87A /* CryptographyUITestsLaunchTests.swift */; };
+		3CBB8F452AB87D5C0016C87A /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB8F442AB87D5C0016C87A /* CryptoViewModel.swift */; };
+		3CBB8F472AB87DD70016C87A /* CryptoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBB8F462AB87DD70016C87A /* CryptoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3CBB8F302AB87D1D0016C87A /* CryptographyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptographyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBB8F342AB87D1D0016C87A /* CryptographyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptographyUITests.swift; sourceTree = "<group>"; };
 		3CBB8F362AB87D1D0016C87A /* CryptographyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptographyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CBB8F442AB87D5C0016C87A /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		3CBB8F462AB87DD70016C87A /* CryptoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		3CBB8F182AB87D160016C87A /* Cryptography */ = {
 			isa = PBXGroup;
 			children = (
+				3CBB8F482AB88C350016C87A /* View */,
+				3CBB8F432AB87D480016C87A /* ViewModel */,
 				3CBB8F192AB87D160016C87A /* CryptographyApp.swift */,
 				3CBB8F1B2AB87D160016C87A /* ContentView.swift */,
 				3CBB8F1D2AB87D1C0016C87A /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				3CBB8F362AB87D1D0016C87A /* CryptographyUITestsLaunchTests.swift */,
 			);
 			path = CryptographyUITests;
+			sourceTree = "<group>";
+		};
+		3CBB8F432AB87D480016C87A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CBB8F442AB87D5C0016C87A /* CryptoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3CBB8F482AB88C350016C87A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CBB8F462AB87DD70016C87A /* CryptoView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,8 @@
 			files = (
 				3CBB8F1C2AB87D160016C87A /* ContentView.swift in Sources */,
 				3CBB8F1A2AB87D160016C87A /* CryptographyApp.swift in Sources */,
+				3CBB8F452AB87D5C0016C87A /* CryptoViewModel.swift in Sources */,
+				3CBB8F472AB87DD70016C87A /* CryptoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

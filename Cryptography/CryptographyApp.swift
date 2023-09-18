@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CryptographyApp: App {
+    @ObservedObject var viewModel = CryptoViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CryptoView(viewModel: viewModel)
         }
     }
 }
