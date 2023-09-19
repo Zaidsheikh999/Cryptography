@@ -62,6 +62,25 @@ struct CryptoView: View {
             }
         }
         
+        Spacer()
+        
+        
+        
+        Button {
+            viewModel.input = ""
+            viewModel.encryptedText = ""
+            viewModel.decryptedText = ""
+            viewModel.key = ""
+        } label: {
+            Text("Clear All")
+                .bold()
+                .foregroundColor(.red)
+                .background(Color(.white))
+                .padding()
+            
+        }
+        
+        
     }
 }
 
